@@ -7,7 +7,7 @@ import { useState } from "react"; // Import useState hook
 import "../Admin/AdminSidebar.css";
 
 const AdminSidebar = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
   const [sidebarOpen, setSidebarOpen] = useState(false); // State to manage sidebar visibility
 
   const handleLogout = () => {
